@@ -142,7 +142,7 @@ DashboardController.prototype = {
             log("New Dashboard URL:"+url);
             OWF.Preferences.setUserPreference(
             {
-                namespace:'MITRE.DataSelector',
+                namespace:'SeamlessC2.DashboardCreated',
                 name:'guid',
                 value:generatedGUID,
                 onSuccess:function(pref){

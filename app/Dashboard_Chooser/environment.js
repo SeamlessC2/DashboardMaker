@@ -4,6 +4,7 @@ var CONSOLE_ENABLED = true;
 
 var LOCAL_8443_URL = "https://localhost:8443/";
 var LOCAL_8080_URL = "http://localhost:8080/";
+var NEW_DASHBOARD_SIZE = {width:207,height:337};  //set each to "100%" maximize window - this maximizes the widget to fill its window
 
 //GLOBAL VARIABLES
 var TAILOR_8080_URL = LOCAL_8443_URL+"DashboardMaker/data/";// "http://tinker.mitre.org:8080/";
@@ -13,7 +14,7 @@ var CRYSTAL_URL = "http://crystal.mitre.org:8080/";
 
 var DATASOURCES_URL = TAILOR_8443_URL+"tailorcore/sources.json";//cross side scripting issue
 
-var DATA_SELECTOR_WIDGET_NAME = "DataSelector";
+var DATA_SELECTOR_WIDGET_NAME = "SeamlessC2"; //DataSelector";
 
 //OWF SETUP
 var owf_running = OWF.Util.isRunningInOWF(); //https://github.com/ozoneplatform/owf/wiki/OWF-7-Developer-Creating-a-Widget                    

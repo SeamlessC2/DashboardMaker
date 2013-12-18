@@ -33,8 +33,8 @@ DashboardController.prototype.updateDashboardModels = function (widget){
         "width": 400
     };
     var guid ={};
-    guid['width']= "100%";//maximize window - this maximizes the widget to fill its window
-    guid['height'] = "100%"; //maximize window
+    guid['width']= NEW_DASHBOARD_SIZE.width;// "100%";//maximize window - this maximizes the widget to fill its window
+    guid['height'] = NEW_DASHBOARD_SIZE.height;//"100%"; //maximize window
     guid['x'] = 0;
     guid['y'] = 0;
     guid.timestamp = new Date().getTime();
